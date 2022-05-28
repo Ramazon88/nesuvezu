@@ -79,7 +79,7 @@ TEMPLATES = [
 ]
 
 WSGI_APPLICATION = 'config.wsgi.application'
-NESU_TOKEN = "5276301486:AAE9RFqrQhdS2EsP-y2C5pKqFrVf6oClvZo"
+NESU_TOKEN = env.str("NESU_TOKEN")
 
 
 # Database
