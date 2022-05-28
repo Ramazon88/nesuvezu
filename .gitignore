@@ -1,0 +1,5 @@
+.env
+venv
+logfele.log
+logfile_err.log
+media
